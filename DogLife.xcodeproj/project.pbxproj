@@ -22,7 +22,6 @@
 		6AB0E72B24F6EBB6002E5E48 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0E72A24F6EBB6002E5E48 /* SettingsViewController.swift */; };
 		6AEDCDB224F92A29009E10F9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB124F92A29009E10F9 /* FeedViewController.swift */; };
 		6AEDCDB424F92BF5009E10F9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB324F92BF5009E10F9 /* FeedCell.swift */; };
-		6AEDCDB624F9354C009E10F9 /* selectimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB524F9354C009E10F9 /* selectimage.png */; };
 		6AEDCDBA24F941DF009E10F9 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB924F941DF009E10F9 /* UserSingleton.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +43,6 @@
 		6AB0E72A24F6EBB6002E5E48 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		6AEDCDB124F92A29009E10F9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		6AEDCDB324F92BF5009E10F9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
-		6AEDCDB524F9354C009E10F9 /* selectimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectimage.png; sourceTree = "<group>"; };
 		6AEDCDB924F941DF009E10F9 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
 		ADA8278258677AF9C8502786 /* Pods-DogLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogLife.release.xcconfig"; path = "Target Support Files/Pods-DogLife/Pods-DogLife.release.xcconfig"; sourceTree = "<group>"; };
 		DD757AFCAD96CD0702ED2C36 /* Pods_DogLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,7 +94,6 @@
 				6AEDCDB124F92A29009E10F9 /* FeedViewController.swift */,
 				6AEDCDB924F941DF009E10F9 /* UserSingleton.swift */,
 				6AB0E72A24F6EBB6002E5E48 /* SettingsViewController.swift */,
-				6AEDCDB524F9354C009E10F9 /* selectimage.png */,
 				6A05746924F3E743002B9707 /* ViewController.swift */,
 				6AEDCDB324F92BF5009E10F9 /* FeedCell.swift */,
 				6A1547AE24F67DEC00134E01 /* GoogleService-Info.plist */,
@@ -186,7 +183,6 @@
 				6A1547AF24F67DEC00134E01 /* GoogleService-Info.plist in Resources */,
 				6A05747E24F3E86A002B9707 /* 00 Splash Screen – 1@2x.png in Resources */,
 				6A05746D24F3E743002B9707 /* Main.storyboard in Resources */,
-				6AEDCDB624F9354C009E10F9 /* selectimage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

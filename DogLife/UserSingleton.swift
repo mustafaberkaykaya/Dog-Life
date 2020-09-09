@@ -13,6 +13,7 @@ class UserSingleton {
     var email = ""
     var nickname = ""
     var userPhoto = ""
+    
     private init(){
         
     }
