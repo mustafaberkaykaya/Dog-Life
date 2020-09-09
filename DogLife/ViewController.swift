@@ -23,6 +23,10 @@ class ViewController: UIViewController {
         if let token = AccessToken.current,
             !token.isExpired {
         }
+        
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        view.addGestureRecognizer(gestureRecognizer)
+        
     }
     @IBAction func registerButtonClicked(_ sender: Any) {
         performSegue(withIdentifier: "toSignUp", sender: nil)
@@ -82,6 +86,9 @@ class ViewController: UIViewController {
     func currentUserName()  {
         if let currentUser = Auth.auth().currentUser {
         }
+    }
+    @objc func hideKeyboard(){
+        view.endEditing(true)
     }
 }
 

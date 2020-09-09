@@ -22,6 +22,9 @@ class UploadViewController: UIViewController,UINavigationControllerDelegate,UIIm
         let gestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(goLibrary))
         addDogIcone.addGestureRecognizer(gestureRecognizer)
         
+        let gestureRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(hideKeyboard))
+        view.addGestureRecognizer(gestureRecognizer2)
+        
     }
     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
@@ -84,4 +87,7 @@ class UploadViewController: UIViewController,UINavigationControllerDelegate,UIIm
             alert.addAction(okButton)
             present(alert,animated: true,completion: nil)
         }
+    @objc func hideKeyboard(){
+           view.endEditing(true)
+       }
 }
