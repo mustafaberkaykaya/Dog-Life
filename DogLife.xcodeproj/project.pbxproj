@@ -3,19 +3,31 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1973B556D5601A9A3CFDD5CF /* Pods_DogLife.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD757AFCAD96CD0702ED2C36 /* Pods_DogLife.framework */; };
 		6A05746624F3E743002B9707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05746524F3E743002B9707 /* AppDelegate.swift */; };
 		6A05746824F3E743002B9707 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05746724F3E743002B9707 /* SceneDelegate.swift */; };
 		6A05746A24F3E743002B9707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05746924F3E743002B9707 /* ViewController.swift */; };
 		6A05746D24F3E743002B9707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A05746B24F3E743002B9707 /* Main.storyboard */; };
 		6A05746F24F3E748002B9707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A05746E24F3E748002B9707 /* Assets.xcassets */; };
 		6A05747224F3E748002B9707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A05747024F3E748002B9707 /* LaunchScreen.storyboard */; };
+		6A05747E24F3E86A002B9707 /* 00 Splash Screen – 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A05747D24F3E86A002B9707 /* 00 Splash Screen – 1@2x.png */; };
+		6A05748024F4307B002B9707 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A05747F24F4307B002B9707 /* SignUpViewController.swift */; };
+		6A1200F724F43C63000C65ED /* forgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A1200F624F43C63000C65ED /* forgotPasswordViewController.swift */; };
+		6A1547AF24F67DEC00134E01 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A1547AE24F67DEC00134E01 /* GoogleService-Info.plist */; };
+		6AB0E72924F6D252002E5E48 /* UploadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0E72824F6D252002E5E48 /* UploadViewController.swift */; };
+		6AB0E72B24F6EBB6002E5E48 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AB0E72A24F6EBB6002E5E48 /* SettingsViewController.swift */; };
+		6AEDCDB224F92A29009E10F9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB124F92A29009E10F9 /* FeedViewController.swift */; };
+		6AEDCDB424F92BF5009E10F9 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB324F92BF5009E10F9 /* FeedCell.swift */; };
+		6AEDCDB624F9354C009E10F9 /* selectimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB524F9354C009E10F9 /* selectimage.png */; };
+		6AEDCDBA24F941DF009E10F9 /* UserSingleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AEDCDB924F941DF009E10F9 /* UserSingleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55E47FA8345AFA6F426BD640 /* Pods-DogLife.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogLife.debug.xcconfig"; path = "Target Support Files/Pods-DogLife/Pods-DogLife.debug.xcconfig"; sourceTree = "<group>"; };
 		6A05746224F3E743002B9707 /* DogLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A05746524F3E743002B9707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A05746724F3E743002B9707 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,18 @@
 		6A05746E24F3E748002B9707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A05747124F3E748002B9707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A05747324F3E748002B9707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A05747D24F3E86A002B9707 /* 00 Splash Screen – 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "00 Splash Screen – 1@2x.png"; sourceTree = "<group>"; };
+		6A05747F24F4307B002B9707 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		6A1200F624F43C63000C65ED /* forgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = forgotPasswordViewController.swift; sourceTree = "<group>"; };
+		6A1547AE24F67DEC00134E01 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		6AB0E72824F6D252002E5E48 /* UploadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadViewController.swift; sourceTree = "<group>"; };
+		6AB0E72A24F6EBB6002E5E48 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		6AEDCDB124F92A29009E10F9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		6AEDCDB324F92BF5009E10F9 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		6AEDCDB524F9354C009E10F9 /* selectimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = selectimage.png; sourceTree = "<group>"; };
+		6AEDCDB924F941DF009E10F9 /* UserSingleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSingleton.swift; sourceTree = "<group>"; };
+		ADA8278258677AF9C8502786 /* Pods-DogLife.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogLife.release.xcconfig"; path = "Target Support Files/Pods-DogLife/Pods-DogLife.release.xcconfig"; sourceTree = "<group>"; };
+		DD757AFCAD96CD0702ED2C36 /* Pods_DogLife.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogLife.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1973B556D5601A9A3CFDD5CF /* Pods_DogLife.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29FC398E9BDEE4FD22D8AC00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD757AFCAD96CD0702ED2C36 /* Pods_DogLife.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6A05745924F3E742002B9707 = {
 			isa = PBXGroup;
 			children = (
 				6A05746424F3E743002B9707 /* DogLife */,
 				6A05746324F3E743002B9707 /* Products */,
+				ACBBD25E04A87D625478BD11 /* Pods */,
+				29FC398E9BDEE4FD22D8AC00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +93,32 @@
 			children = (
 				6A05746524F3E743002B9707 /* AppDelegate.swift */,
 				6A05746724F3E743002B9707 /* SceneDelegate.swift */,
+				6AEDCDB124F92A29009E10F9 /* FeedViewController.swift */,
+				6AEDCDB924F941DF009E10F9 /* UserSingleton.swift */,
+				6AB0E72A24F6EBB6002E5E48 /* SettingsViewController.swift */,
+				6AEDCDB524F9354C009E10F9 /* selectimage.png */,
 				6A05746924F3E743002B9707 /* ViewController.swift */,
+				6AEDCDB324F92BF5009E10F9 /* FeedCell.swift */,
+				6A1547AE24F67DEC00134E01 /* GoogleService-Info.plist */,
 				6A05746B24F3E743002B9707 /* Main.storyboard */,
+				6A1200F624F43C63000C65ED /* forgotPasswordViewController.swift */,
+				6A05747D24F3E86A002B9707 /* 00 Splash Screen – 1@2x.png */,
 				6A05746E24F3E748002B9707 /* Assets.xcassets */,
 				6A05747024F3E748002B9707 /* LaunchScreen.storyboard */,
 				6A05747324F3E748002B9707 /* Info.plist */,
+				6AB0E72824F6D252002E5E48 /* UploadViewController.swift */,
+				6A05747F24F4307B002B9707 /* SignUpViewController.swift */,
 			);
 			path = DogLife;
+			sourceTree = "<group>";
+		};
+		ACBBD25E04A87D625478BD11 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				55E47FA8345AFA6F426BD640 /* Pods-DogLife.debug.xcconfig */,
+				ADA8278258677AF9C8502786 /* Pods-DogLife.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A05747624F3E748002B9707 /* Build configuration list for PBXNativeTarget "DogLife" */;
 			buildPhases = (
+				78E717FCA3D64226A58CD57E /* [CP] Check Pods Manifest.lock */,
 				6A05745E24F3E743002B9707 /* Sources */,
 				6A05745F24F3E743002B9707 /* Frameworks */,
 				6A05746024F3E743002B9707 /* Resources */,
+				3A3AC4D98A4EC1BC44EDED62 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +183,56 @@
 			files = (
 				6A05747224F3E748002B9707 /* LaunchScreen.storyboard in Resources */,
 				6A05746F24F3E748002B9707 /* Assets.xcassets in Resources */,
+				6A1547AF24F67DEC00134E01 /* GoogleService-Info.plist in Resources */,
+				6A05747E24F3E86A002B9707 /* 00 Splash Screen – 1@2x.png in Resources */,
 				6A05746D24F3E743002B9707 /* Main.storyboard in Resources */,
+				6AEDCDB624F9354C009E10F9 /* selectimage.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3A3AC4D98A4EC1BC44EDED62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogLife/Pods-DogLife-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DogLife/Pods-DogLife-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DogLife/Pods-DogLife-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E717FCA3D64226A58CD57E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogLife-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6A05745E24F3E743002B9707 /* Sources */ = {
@@ -139,8 +240,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A05746A24F3E743002B9707 /* ViewController.swift in Sources */,
+				6AB0E72924F6D252002E5E48 /* UploadViewController.swift in Sources */,
+				6AB0E72B24F6EBB6002E5E48 /* SettingsViewController.swift in Sources */,
 				6A05746624F3E743002B9707 /* AppDelegate.swift in Sources */,
+				6A05748024F4307B002B9707 /* SignUpViewController.swift in Sources */,
+				6A1200F724F43C63000C65ED /* forgotPasswordViewController.swift in Sources */,
+				6AEDCDB224F92A29009E10F9 /* FeedViewController.swift in Sources */,
 				6A05746824F3E743002B9707 /* SceneDelegate.swift in Sources */,
+				6AEDCDBA24F941DF009E10F9 /* UserSingleton.swift in Sources */,
+				6AEDCDB424F92BF5009E10F9 /* FeedCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +390,7 @@
 		};
 		6A05747724F3E748002B9707 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E47FA8345AFA6F426BD640 /* Pods-DogLife.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +409,7 @@
 		};
 		6A05747824F3E748002B9707 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADA8278258677AF9C8502786 /* Pods-DogLife.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

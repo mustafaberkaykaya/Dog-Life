@@ -7,9 +7,17 @@
 //
 
 import UIKit
-
+import Firebase
 class FeedCell: UITableViewCell {
 
+    @IBOutlet weak var feedUserImage: UIImageView!
+    @IBOutlet weak var feedImageView: UIImageView!
+    @IBOutlet weak var feedUserNameLabel: UILabel!
+    @IBOutlet weak var feedCommentLabel: UILabel!
+    @IBOutlet weak var bonesCounterLabel: UILabel!
+    @IBOutlet weak var documentIdLabel: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -20,5 +28,15 @@ class FeedCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
-
+    
+    @IBAction func bonesButtonClicked(_ sender: Any) {
+        let firestoreDatabase = Firestore.firestore()
+        if let likeCount = Int(bonesCounterLabel.text!){
+            let likeStore = ["likes":likeCount + 1] as [String:Any]
+            firestoreDatabase.collection("Posts").document(documentIdLabel.text!).setData(likeStore, merge: true)
+        }
+    }
+    @IBAction func dowlandPhoto(_ sender: Any) {
+        UIImageWriteToSavedPhotosAlbum(feedImageView!.image!, nil, nil, nil)
+    }
 }

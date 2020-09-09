@@ -7,3 +7,14 @@
 //
 
 import Foundation
+class UserSingleton {
+    static let sharedUserInfo = UserSingleton()
+    
+    var email = ""
+    var nickname = ""
+    var userPhoto = ""
+    private init(){
+        
+    }
+    
+}
