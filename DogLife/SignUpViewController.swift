@@ -36,6 +36,7 @@ class SignUpViewController: UIViewController,UINavigationControllerDelegate,UIIm
         picker.allowsEditing = true
         present(picker,animated: true,completion: nil)
     }
+    
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         dogImage.image = info[.originalImage] as? UIImage
         dogImage.layer.cornerRadius = dogImage.frame.size.width / 2

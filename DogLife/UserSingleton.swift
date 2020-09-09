@@ -15,7 +15,5 @@ class UserSingleton {
     var userPhoto = ""
     
     private init(){
-        
     }
-    
 }

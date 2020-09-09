@@ -14,11 +14,6 @@ class forgotPasswordViewController: UIViewController, UIImagePickerControllerDel
     @IBOutlet weak var emailText: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        
-        
-    
     }
     
     @IBAction func forgotPasswordButton(_ sender: Any) {

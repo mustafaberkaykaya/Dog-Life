@@ -125,6 +125,5 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
            alert.addAction(okButton)
            present(alert,animated: true,completion: nil)
        }
-
 }
 

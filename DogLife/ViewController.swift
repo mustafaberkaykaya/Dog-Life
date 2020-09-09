@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         if let token = AccessToken.current,
             !token.isExpired {
-            
         }
     }
     @IBAction func registerButtonClicked(_ sender: Any) {
@@ -82,14 +81,7 @@ class ViewController: UIViewController {
     }
     func currentUserName()  {
         if let currentUser = Auth.auth().currentUser {
-            
         }
     }
-    
- 
-    
-    
-    
-
 }
 

@@ -29,10 +29,6 @@ class UploadViewController: UIViewController,UINavigationControllerDelegate,UIIm
         self.dismiss(animated: true, completion: nil)
         addDogIcone.isHidden = true
     }
-    
-    
-    
-
     @IBAction func uploadClicked(_ sender: Any) {
         let storage = Storage.storage()
         let storageReferance = storage.reference()
@@ -69,26 +65,23 @@ class UploadViewController: UIViewController,UINavigationControllerDelegate,UIIm
                             })
                         }
                     }
-                    
                 }
             }
         }
-    
-    
     }
+    
     @objc func goLibrary(){
         let picker = UIImagePickerController()
         picker.delegate = self
         picker.sourceType = .photoLibrary
         picker.allowsEditing = true
         present(picker,animated: true,completion: nil)
-      
     }
+    
     func makeAlert(title:String,message:String){
             let alert = UIAlertController(title: title, message: message, preferredStyle: UIAlertController.Style.alert)
             let okButton = UIAlertAction(title: "Ok", style: UIAlertAction.Style.default, handler: nil)
             alert.addAction(okButton)
             present(alert,animated: true,completion: nil)
         }
-   
 }
